@@ -64,7 +64,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       team={[
-        { id: "founder", name: "Alex Rivers", role: "Founder & Lead Strategist", imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg" }
+        { id: "founder", name: "Brayden Eustice", role: "Founder & Lead Strategist", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CrpWp8ExDJwKhzhEC08cSwDDoH/uploaded-1777157215902-kx6ghlpi.jpg" }
       ]}
     />
   </div>
