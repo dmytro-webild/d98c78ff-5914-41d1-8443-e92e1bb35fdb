@@ -32,21 +32,13 @@ export default function LandingPage() {
       <NavbarStyleApple
       navItems={[
         {
-          name: "Home",
-          id: "hero",
-        },
+          name: "Home",          id: "hero"},
         {
-          name: "Services",
-          id: "services",
-        },
+          name: "Services",          id: "services"},
         {
-          name: "Portfolio",
-          id: "portfolio",
-        },
+          name: "Portfolio",          id: "portfolio"},
         {
-          name: "Contact",
-          id: "contact",
-        },
+          name: "Contact",          id: "contact"},
       ]}
       brandName="Loop Web"
     />
@@ -55,100 +47,57 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroSplitTestimonial
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       title="More Customers. Better Websites. Built for Local Businesses."
       description="Loop Web Company helps small businesses get more calls, bookings, and visibility online. Get a high-converting website that works as hard as you do."
       testimonials={[
         {
-          name: "Sarah Miller",
-          handle: "@miller-barber",
-          testimonial: "My bookings tripled after Loop Web built my site.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-mature-businessman-showing-thumb-up_1262-3024.jpg",
-        },
+          name: "Sarah Miller",          handle: "@miller-barber",          testimonial: "My bookings tripled after Loop Web built my site.",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/happy-mature-businessman-showing-thumb-up_1262-3024.jpg"},
         {
-          name: "John Davis",
-          handle: "@jd-contracting",
-          testimonial: "Finally, a website that actually generates leads for my business.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/smiling-businessman-standing-airport_107420-85035.jpg",
-        },
+          name: "John Davis",          handle: "@jd-contracting",          testimonial: "Finally, a website that actually generates leads for my business.",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/smiling-businessman-standing-airport_107420-85035.jpg"},
         {
-          name: "Elena Rodriguez",
-          handle: "@elena-bistro",
-          testimonial: "Professional and fast, they delivered exactly what I needed.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/people-having-dinner-luxurious-restaurants_23-2151081913.jpg",
-        },
+          name: "Elena Rodriguez",          handle: "@elena-bistro",          testimonial: "Professional and fast, they delivered exactly what I needed.",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/people-having-dinner-luxurious-restaurants_23-2151081913.jpg"},
         {
-          name: "Mark Wilson",
-          handle: "@mw-fitness",
-          testimonial: "The growth in my gym's traffic has been incredible.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/successful-man-pointing-camera-with-finger_1262-3118.jpg",
-        },
+          name: "Mark Wilson",          handle: "@mw-fitness",          testimonial: "The growth in my gym's traffic has been incredible.",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/successful-man-pointing-camera-with-finger_1262-3118.jpg"},
         {
-          name: "Sam Taylor",
-          handle: "@taylor-designs",
-          testimonial: "An absolute pleasure working with the team at Loop Web.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg",
-        },
+          name: "Sam Taylor",          handle: "@taylor-designs",          testimonial: "An absolute pleasure working with the team at Loop Web.",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-black-suit_23-2148401442.jpg"},
       ]}
       buttons={[
         {
-          text: "Get a Free Website Mockup",
-          href: "#contact",
-        },
+          text: "Get a Free Website Mockup",          href: "#contact"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/3d-render-network-communications-background-with-low-poly-plexus-design_1048-13853.jpg"
       imageAlt="tech abstract blue background"
       mediaAnimation="slide-up"
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/positive-confident-businessman-posing-outside_74855-1183.jpg",
-          alt: "Positive confident businessman posing outside",
-        },
+          src: "http://img.b2bpic.net/free-photo/positive-confident-businessman-posing-outside_74855-1183.jpg",          alt: "Positive confident businessman posing outside"},
         {
-          src: "http://img.b2bpic.net/free-photo/close-up-businessman-with-tie_1098-2867.jpg",
-          alt: "Close-up of businessman with tie",
-        },
+          src: "http://img.b2bpic.net/free-photo/close-up-businessman-with-tie_1098-2867.jpg",          alt: "Close-up of businessman with tie"},
         {
-          src: "http://img.b2bpic.net/free-photo/happy-young-professional-posing-office_1262-21170.jpg",
-          alt: "Happy young professional posing in office",
-        },
+          src: "http://img.b2bpic.net/free-photo/happy-young-professional-posing-office_1262-21170.jpg",          alt: "Happy young professional posing in office"},
         {
-          src: "http://img.b2bpic.net/free-photo/crazy-businessman-worried-expression_1194-3826.jpg",
-          alt: "crazy businessman worried expression",
-        },
+          src: "http://img.b2bpic.net/free-photo/crazy-businessman-worried-expression_1194-3826.jpg",          alt: "crazy businessman worried expression"},
         {
-          src: "http://img.b2bpic.net/free-photo/blond-businessman-happy-expression_1194-3800.jpg",
-          alt: "blond businessman happy expression",
-        },
+          src: "http://img.b2bpic.net/free-photo/blond-businessman-happy-expression_1194-3800.jpg",          alt: "blond businessman happy expression"},
       ]}
       avatarText="Trusted by 500+ local businesses"
       marqueeItems={[
         {
-          type: "text",
-          text: "High Conversion",
-        },
+          type: "text",          text: "High Conversion"},
         {
-          type: "text",
-          text: "Local SEO",
-        },
+          type: "text",          text: "Local SEO"},
         {
-          type: "text",
-          text: "Mobile Responsive",
-        },
+          type: "text",          text: "Mobile Responsive"},
         {
-          type: "text",
-          text: "Lightning Fast",
-        },
+          type: "text",          text: "Lightning Fast"},
         {
-          type: "text",
-          text: "Lead Focused",
-        },
+          type: "text",          text: "Lead Focused"},
       ]}
     />
   </div>
@@ -161,19 +110,13 @@ export default function LandingPage() {
       features={[
         {
           icon: Layout,
-          title: "Website Design",
-          description: "Custom, mobile-friendly websites that showcase your business professionally.",
-        },
+          title: "Website Design",          description: "Custom, mobile-friendly websites that showcase your business professionally."},
         {
           icon: Search,
-          title: "SEO Setup",
-          description: "Local SEO strategies to help you get found by customers in your area.",
-        },
+          title: "SEO Setup",          description: "Local SEO strategies to help you get found by customers in your area."},
         {
           icon: Target,
-          title: "Lead Gen Optimization",
-          description: "High-conversion elements strategically designed to increase calls and bookings.",
-        },
+          title: "Lead Gen Optimization",          description: "High-conversion elements strategically designed to increase calls and bookings."},
       ]}
       title="Services That Drive Growth"
       description="We specialize in results-oriented digital solutions for local small businesses."
@@ -187,28 +130,16 @@ export default function LandingPage() {
       useInvertedBackground={true}
       metrics={[
         {
-          id: "1",
-          value: "01",
-          title: "Contact Us",
-          items: [
-            "Book your free discovery call and tell us about your goals.",
-          ],
+          id: "1",          value: "01",          title: "Contact Us",          items: [
+            "Book your free discovery call and tell us about your goals."],
         },
         {
-          id: "2",
-          value: "02",
-          title: "We Design",
-          items: [
-            "We build a custom, high-converting website mockup for your review.",
-          ],
+          id: "2",          value: "02",          title: "We Design",          items: [
+            "We build a custom, high-converting website mockup for your review."],
         },
         {
-          id: "3",
-          value: "03",
-          title: "More Customers",
-          items: [
-            "Launch your site and watch the calls, bookings, and visibility grow.",
-          ],
+          id: "3",          value: "03",          title: "More Customers",          items: [
+            "Launch your site and watch the calls, bookings, and visibility grow."],
         },
       ]}
       title="How It Works"
@@ -222,62 +153,7 @@ export default function LandingPage() {
       textboxLayout="default"
       gridVariant="four-items-2x2-equal-grid"
       useInvertedBackground={false}
-      products={[
-        {
-          id: "p1",
-          brand: "Barbershop",
-          name: "Main Street Barber",
-          price: "$1,200",
-          rating: 5,
-          reviewCount: "12",
-          imageSrc: "http://img.b2bpic.net/free-photo/cosmetic-male-beauty-products-with-display_23-2150435194.jpg",
-        },
-        {
-          id: "p2",
-          brand: "Construction",
-          name: "Elite Contracting",
-          price: "$1,500",
-          rating: 5,
-          reviewCount: "18",
-          imageSrc: "http://img.b2bpic.net/free-photo/digital-tablet-photography-design-studio-editing-concept_53876-146880.jpg",
-        },
-        {
-          id: "p3",
-          brand: "Fitness",
-          name: "Summit Gym",
-          price: "$1,800",
-          rating: 5,
-          reviewCount: "25",
-          imageSrc: "http://img.b2bpic.net/free-photo/website-development-layout-sketch-drawing_53876-124188.jpg",
-        },
-        {
-          id: "p4",
-          brand: "Dining",
-          name: "Bistro 55",
-          price: "$1,300",
-          rating: 5,
-          reviewCount: "15",
-          imageSrc: "http://img.b2bpic.net/free-photo/food-order-pizza-online-internet-concept_53876-125056.jpg",
-        },
-        {
-          id: "p5",
-          brand: "Healthcare",
-          name: "Smile Dental",
-          price: "$2,000",
-          rating: 5,
-          reviewCount: "30",
-          imageSrc: "http://img.b2bpic.net/free-photo/physician-medic-consulting-sick-patient-medical-appointment-hospital-ward_482257-2205.jpg",
-        },
-        {
-          id: "p6",
-          brand: "Tech",
-          name: "NextGen Startups",
-          price: "$2,500",
-          rating: 5,
-          reviewCount: "40",
-          imageSrc: "http://img.b2bpic.net/free-photo/business-woman-working-with-greenscreen-computer-monitor-late-night-analyzing-isolated-chroma-key-background-with-blank-mockup-template-copyspace-display-modern-office_482257-48925.jpg",
-        },
-      ]}
+      products={[]}
       title="Our Recent Work"
       description="Examples of successful web designs built for local businesses."
     />
@@ -289,45 +165,15 @@ export default function LandingPage() {
       useInvertedBackground={true}
       testimonials={[
         {
-          id: "t1",
-          title: "Great Experience",
-          quote: "Loop Web delivered exactly what we needed to grow our local presence.",
-          name: "Alice Green",
-          role: "Owner, Bistro 55",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-woman-with-long-brown-hair-black-t-shirt-white-jacket_613910-8245.jpg",
-        },
+          id: "t1",          title: "Great Experience",          quote: "Loop Web delivered exactly what we needed to grow our local presence.",          name: "Alice Green",          role: "Owner, Bistro 55",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-woman-with-long-brown-hair-black-t-shirt-white-jacket_613910-8245.jpg"},
         {
-          id: "t2",
-          title: "Very Professional",
-          quote: "The design process was easy and the final site looks fantastic.",
-          name: "Bob Smith",
-          role: "Manager, Elite Contracting",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiley-modern-male_23-2148514900.jpg",
-        },
+          id: "t2",          title: "Very Professional",          quote: "The design process was easy and the final site looks fantastic.",          name: "Bob Smith",          role: "Manager, Elite Contracting",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiley-modern-male_23-2148514900.jpg"},
         {
-          id: "t3",
-          title: "Highly Recommend",
-          quote: "Professional, fast, and focused on our business goals.",
-          name: "Charlie Day",
-          role: "Owner, Summit Gym",
-          imageSrc: "http://img.b2bpic.net/free-photo/blond-businessman-happy-expression_1194-3844.jpg",
-        },
+          id: "t3",          title: "Highly Recommend",          quote: "Professional, fast, and focused on our business goals.",          name: "Charlie Day",          role: "Owner, Summit Gym",          imageSrc: "http://img.b2bpic.net/free-photo/blond-businessman-happy-expression_1194-3844.jpg"},
         {
-          id: "t4",
-          title: "Increased Leads",
-          quote: "More calls and inquiries in the first month than all last year.",
-          name: "Diana Ross",
-          role: "Owner, NextGen Startups",
-          imageSrc: "http://img.b2bpic.net/free-photo/gesturing-ok-handsome-middle-aged-businessman-architect-construction-helmet-handsome-mature-head-construction-black-suit-architect-concept_549566-1039.jpg",
-        },
+          id: "t4",          title: "Increased Leads",          quote: "More calls and inquiries in the first month than all last year.",          name: "Diana Ross",          role: "Owner, NextGen Startups",          imageSrc: "http://img.b2bpic.net/free-photo/gesturing-ok-handsome-middle-aged-businessman-architect-construction-helmet-handsome-mature-head-construction-black-suit-architect-concept_549566-1039.jpg"},
         {
-          id: "t5",
-          title: "Best Investment",
-          quote: "The website paid for itself within two weeks of launching.",
-          name: "Evan White",
-          role: "Manager, Smile Dental",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-smiling-businesswoman-relaxing-cafe-after-work-thinking-something-while-reading-newspaper_637285-256.jpg",
-        },
+          id: "t5",          title: "Best Investment",          quote: "The website paid for itself within two weeks of launching.",          name: "Evan White",          role: "Manager, Smile Dental",          imageSrc: "http://img.b2bpic.net/free-photo/young-smiling-businesswoman-relaxing-cafe-after-work-thinking-something-while-reading-newspaper_637285-256.jpg"},
       ]}
       title="Client Results"
       description="Hear what local business owners have to say about working with Loop Web."
@@ -340,20 +186,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "f1",
-          title: "How long does a website take?",
-          content: "Most projects are completed in 2-4 weeks depending on scope.",
-        },
+          id: "f1",          title: "How long does a website take?",          content: "Most projects are completed in 2-4 weeks depending on scope."},
         {
-          id: "f2",
-          title: "Do you provide SEO?",
-          content: "Yes, we integrate local SEO strategies for every site we build.",
-        },
+          id: "f2",          title: "Do you provide SEO?",          content: "Yes, we integrate local SEO strategies for every site we build."},
         {
-          id: "f3",
-          title: "Can I edit my site later?",
-          content: "Yes, we build sites using user-friendly platforms so you can easily make updates.",
-        },
+          id: "f3",          title: "Can I edit my site later?",          content: "Yes, we build sites using user-friendly platforms so you can easily make updates."},
       ]}
       title="Frequently Asked Questions"
       description="Got questions? We've got answers."
@@ -368,8 +205,7 @@ export default function LandingPage() {
       <ContactCenter
       useInvertedBackground={true}
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       tag="Contact Us"
       title="Get a Free Website Mockup"
       description="Ready to get more customers online? Tell us about your business and we'll reach out to schedule a discovery call."
