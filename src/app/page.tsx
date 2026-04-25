@@ -159,27 +159,6 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="testimonials" data-section="testimonials">
-      <TestimonialCardTen
-      textboxLayout="split"
-      useInvertedBackground={true}
-      testimonials={[
-        {
-          id: "t1",          title: "Great Experience",          quote: "Loop Web delivered exactly what we needed to grow our local presence.",          name: "Alice Green",          role: "Owner, Bistro 55",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-woman-with-long-brown-hair-black-t-shirt-white-jacket_613910-8245.jpg"},
-        {
-          id: "t2",          title: "Very Professional",          quote: "The design process was easy and the final site looks fantastic.",          name: "Bob Smith",          role: "Manager, Elite Contracting",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiley-modern-male_23-2148514900.jpg"},
-        {
-          id: "t3",          title: "Highly Recommend",          quote: "Professional, fast, and focused on our business goals.",          name: "Charlie Day",          role: "Owner, Summit Gym",          imageSrc: "http://img.b2bpic.net/free-photo/blond-businessman-happy-expression_1194-3844.jpg"},
-        {
-          id: "t4",          title: "Increased Leads",          quote: "More calls and inquiries in the first month than all last year.",          name: "Diana Ross",          role: "Owner, NextGen Startups",          imageSrc: "http://img.b2bpic.net/free-photo/gesturing-ok-handsome-middle-aged-businessman-architect-construction-helmet-handsome-mature-head-construction-black-suit-architect-concept_549566-1039.jpg"},
-        {
-          id: "t5",          title: "Best Investment",          quote: "The website paid for itself within two weeks of launching.",          name: "Evan White",          role: "Manager, Smile Dental",          imageSrc: "http://img.b2bpic.net/free-photo/young-smiling-businesswoman-relaxing-cafe-after-work-thinking-something-while-reading-newspaper_637285-256.jpg"},
-      ]}
-      title="Client Results"
-      description="Hear what local business owners have to say about working with Loop Web."
-    />
-  </div>
-
   <div id="faq" data-section="faq">
       <FaqSplitMedia
       textboxLayout="split"
