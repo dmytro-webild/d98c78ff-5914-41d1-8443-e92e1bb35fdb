@@ -75,15 +75,15 @@ export default function LandingPage() {
       plans={[
         {
           id: "tier-1",          badge: "Starter",          price: "$249",          subtitle: "Setup Fee",          features: ["Custom Design", "Mobile Responsive", "Local SEO Ready"],
-          buttons: [{ text: "Select", href: "#contact" }]
+          buttons: [{ text: "See bekiw ", href: "#contact" }]
         },
         {
           id: "tier-2",          badge: "Growth",          price: "$249 + $100/mo",          subtitle: "Setup + Ongoing Support",          features: ["Everything in Starter", "Monthly Maintenance", "Performance Tracking"],
-          buttons: [{ text: "Select", href: "#contact" }]
+          buttons: [{ text: "See bekiw ", href: "#contact" }]
         },
         {
           id: "tier-3",          badge: "Scale",          price: "$249 + $300/mo",          subtitle: "Premium Growth Pack",          features: ["Everything in Growth", "Advanced SEO", "Priority Support", "Content Updates"],
-          buttons: [{ text: "Select", href: "#contact" }]
+          buttons: [{ text: "See bekiw ", href: "#contact" }]
         }
       ]}
     />
