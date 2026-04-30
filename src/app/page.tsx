@@ -78,11 +78,11 @@ export default function LandingPage() {
           buttons: [{ text: "See Below", href: "#contact" }]
         },
         {
-          id: "tier-2",          badge: "Growth",          price: "$249 + $100/mo",          subtitle: "Setup + Ongoing Support",          features: ["Everything in Starter", "Monthly Maintenance", "Performance Tracking"],
+          id: "tier-2",          badge: "Growth",          price: "$249+ $100/mo",          subtitle: "Setup + Ongoing Support",          features: ["Everything in Starter", "Monthly Maintenance", "Performance Tracking"],
           buttons: [{ text: "See Below", href: "#contact" }]
         },
         {
-          id: "tier-3",          badge: "Scale",          price: "$249 + $300/mo",          subtitle: "Premium Growth Pack",          features: ["Everything in Growth", "Advanced SEO", "Priority Support", "Content Updates"],
+          id: "tier-3",          badge: "Scale",          price: "$249+ $300/mo",          subtitle: "Premium Growth Pack",          features: ["Everything in Growth", "Advanced SEO", "Priority Support", "Content Updates"],
           buttons: [{ text: "See Below", href: "#contact" }]
         }
       ]}
