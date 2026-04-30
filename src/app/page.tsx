@@ -57,7 +57,7 @@ export default function LandingPage() {
       description="Loop Web Company helps small businesses get more calls, bookings, and visibility online. Get a high-converting website that works as hard as you do."
       testimonials={[]}
       buttons={[
-        { text: "Scroll To Bottom ", href: "#contact" },
+        { text: "Get Started", href: "#contact" },
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/3d-render-network-communications-background-with-low-poly-plexus-design_1048-13853.jpg"
       imageAlt="tech abstract blue background"
@@ -75,15 +75,15 @@ export default function LandingPage() {
       plans={[
         {
           id: "tier-1",          badge: "Starter",          price: "$249",          subtitle: "Setup Fee",          features: ["Custom Design", "Mobile Responsive", "Local SEO Ready"],
-          buttons: [{ text: "See Below", href: "#contact" }]
+          buttons: []
         },
         {
           id: "tier-2",          badge: "Growth",          price: "$249+ $100/mo",          subtitle: "Setup + Ongoing Support",          features: ["Everything in Starter", "Monthly Maintenance", "Performance Tracking"],
-          buttons: [{ text: "See Below", href: "#contact" }]
+          buttons: []
         },
         {
           id: "tier-3",          badge: "Scale",          price: "$249+ $300/mo",          subtitle: "Premium Growth Pack",          features: ["Everything in Growth", "Advanced SEO", "Priority Support", "Content Updates"],
-          buttons: [{ text: "See Below", href: "#contact" }]
+          buttons: []
         }
       ]}
     />
