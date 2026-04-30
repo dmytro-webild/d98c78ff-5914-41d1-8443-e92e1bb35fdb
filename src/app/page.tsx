@@ -57,7 +57,7 @@ export default function LandingPage() {
       description="Loop Web Company helps small businesses get more calls, bookings, and visibility online. Get a high-converting website that works as hard as you do."
       testimonials={[]}
       buttons={[
-        { text: "Get a Free Website Mockup", href: "#contact" },
+        { text: "Scroll To Bottom ", href: "#contact" },
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/3d-render-network-communications-background-with-low-poly-plexus-design_1048-13853.jpg"
       imageAlt="tech abstract blue background"
